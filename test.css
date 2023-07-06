@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .menu-container{
-    background-color: rgb(12, 218, 237);
+    background-color: rgb(5, 44, 92);
     padding: 20px;
     color: aliceblue;
     list-style: none;
@@ -23,10 +23,41 @@
     padding-right: 7px;
     font-size: 20px;
     cursor: pointer;
+    
 }
 .item:hover{
     color: rgb(87, 87, 241);
 }
-
-
-
+.br-img{
+    width: 760px;
+}
+.br-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+   /* border: 2px solid gray;*/
+    background-image: url;
+    background-image: url(./logo/background.png);
+    color: rgb(13, 41, 99);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 60px;
+    width: bolds;
+    background-color: aliceblue;
+}
+.dep{
+    font-size: 21px;
+    margin top: 15px;
+    margin bottom: 15px; 
+}
+.btn{
+    padding: 10px;
+    background-color:rgb(13, 41, 99) ;
+    border-radius: 3px;
+    font-size: 21px;
+    border: none;
+    margin-top: 10px;
+}
